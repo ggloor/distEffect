@@ -1,0 +1,16 @@
+Package: distEffect
+Title: Effect Size From Distribution
+Version: 0.0.1
+Authors@R: 
+    person(given = "Greg",
+           family = "Gloor",
+           role = c("aut", "cre"),
+           email = "ggloor@uwo.ca",
+           comment = c(ORCID = "0000-0001-5803-3380"))
+Description: What the package does (one paragraph).
+License: ``use_gpl3_license()
+    pick a license
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
