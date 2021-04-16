@@ -7,10 +7,18 @@ Authors@R:
            role = c("aut", "cre"),
            email = "ggloor@uwo.ca",
            comment = c(ORCID = "0000-0001-5803-3380"))
-Description: What the package does (one paragraph).
-License: ``use_gpl3_license()
-    pick a license
+Description: The package zed calculates effect sizes from distributions rather than from summary statistics of the distributions. This fully non-parametric method is much more robust than parametric effect size estimates and returns sensible effect sizes for any type of distribution. The down side is that zed is about half as efficient as Cohen's d, requiring a minimum of 6-10 measurements per group.
+License: file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
+VignetteBuilder: knitr
+Imports:
+  Rfast,
+  stats
+Suggests:
+  testthat,
+  BiocStyle,
+  knitr,
+  rmarkdown
